@@ -2,7 +2,7 @@
 
 Update multiple player map supporting the upcoming multiplayer update of pysc2. 
 
-\_multi map can use for both single player or multiplayer combat ML use. These maps run continuously until exit command (inpysc2 or exit in SC2) is issued. Score of current episode will reset to zero at the start of next episode and a 2 game second is given after combat is finish to record this score. 
+\_multi map can use for both single player or multiplayer combat ML use. These maps run continuously until exit command (in pysc2 or exit in SC2) is issued. Score of current episode will reset to zero at the start of next episode and a 2 game second is given after combat is finish to record this score. 
 
 New mini-map: Defeat_marine_and_tank. Focus on midgame TvT combat, marine with lv1 attack and lv1 defend with stimpack and shield. 20 marines and 4 tanks are in game for each side. I believe ML should be able to learn by combating with itself in this minigame.
 
