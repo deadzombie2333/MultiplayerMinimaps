@@ -6,9 +6,9 @@ Update multiple player map supporting the upcoming multiplayer update of pysc2.
 
 New mini-map: Defeat_marine_and_tank. Focus on midgame TvT combat, marine with lv1 attack and lv1 defend with stimpack and shield. 20 marines and 4 tanks are in game for each side. 120s is the time limit. I believe ML should be able to learn by combating with itself in this minigame.
 
-mini_games.py: Names of these minigames are now included into library of minigame so one can use it in system command directly. Just copy this file and replace the old file in the directory of pysc2/maps/minigames.py
+mini_games.py: Names of these minigames are now included into library of minigames so one can use it in system command directly. Just copy this file and replace the old file in the directory of pysc2/maps/mini_games.py
 
-Call to multiplayer pysc2: Multiplayer pysc2 is available in dev branch. "--agent" and "--agent_race" is for player1, give "--agent_race terran" if you want player 1 to use terran in minigame. "--agent2" and "--agent2_race is for player2. Default race of player 1 is terran but you can change it use this command. For multiplayer pysc2, \_multi map is require or an error will pop out.
+Call to multiplayer pysc2: Multiplayer pysc2 is available in dev branch. "--agent" and "--agent_race" is for player1 while "--agent2" and "--agent2_race is for player2. Default race of player 1 is terran but you can change it use "--agent_race zerg". For multiplayer pysc2, \_multi map is require or an error will pop out.
 
 # Update 01/12/18:
 
